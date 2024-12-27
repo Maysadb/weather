@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+       <link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" href=
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+	<title>Weather App</title> 
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msapplication-TileColor" content="#E9204F">
+        <meta name="theme-color" content="#E9204F">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/site.webmanifest">
+        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#E9204F">
+        <link rel="stylesheet" href="assets/css/normalize.min.css" />
+        <link rel="stylesheet" href="assets/css/pr.animation.css" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="assets/css/uikit.min.css" />
+        <link rel="stylesheet" href="assets/css/fonts.css" />
+        <link rel="stylesheet" href="assets/css/pixeicons.css" />
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body class="home front-page">
+
+        
+      
+        
+        
+        <div id="loader" class="preloader pr__dark">
+            <span class="loading">
+                <span class="txt">Loading</span>
+                <span class="progress">
+                    <span class="bar-loading"></span>
+                </span>
+            </span>
+        </div><!-- Preloader End -->
+
+        <div class="pr__mobile__nav" id="navbar-mobile" data-uk-offcanvas="overlay: true; flip: true; mode: none">
+            <div class="uk-offcanvas-bar">
+    
+                <button class="uk-offcanvas-close" type="button" data-uk-close="ratio: 2;"></button>
+
+                <nav class="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
+                    <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
+                     <li><a href="index.html">Home</a>
+                                        
+                                    </li>
+                                    
+                                    <li><a href="index.html">About Us</a>
+                                        
+                                    </li>
+                                 
+                                 <li>
+                                        <a href="#op">The Problem</a>
+                                        
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#op">The Solution</a>
+                                        
+                                        
+                                    </li> <li>
+                                        <a href="#op">Sustainability and Affordability</a>
+                                        
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#op">Community Service</a>
+                                        
+                                        
+                                    </li>
+                                   <li><a href="contact.html">Ask AI</a>
+                                        
+                                    </li>
+                                  <li class="menu-item"><a href="home_05.html" style="font-size: 18px"><img src="fislogo.png" class="" style="
+                                                                                                  width: 40px;
+                                                                                                  margin: -10px 0 0 0;
+                                                                                                  "></a>
+                        </li>        
+                    </ul>
+                </nav>
+        
+            </div><!-- Off Canvas Bar End -->
+        </div><!-- Mobile Nav End -->
+  <div class="">
+             <img  align='right' width="125"  height="125" src="logow.png" alt="logo"/>
+  <img  align='left'  width="200"  height="125" src="fislogo.png" alt="logo"/>
+ 
+		<div class="weather-card">
+			<h1 style="color: pink;">
+				
+			</h1>
+			<h3>
+				
+			</h3>
+			<input type="text" id="city-input"
+				placeholder="Enter city name">
+			<button id="city-input-btn"
+					onclick="weatherFn($('#city-input').val())">
+					Get Weather
+			</button>
+			<div id="weather-info"
+				class="animate__animated animate__fadeIn">
+				<h3 id="city-name"></h3>
+				<p id="date"></p>
+				<p id="temperature"></p>
+				<p id="description"></p>
+				<p id="wind-speed"></p>
+			</div>
+		</div>
+	</div>
+
+        <!-- Needed Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/anime.min.js"></script>
+        <script src="assets/js/pr.animation.js"></script>
+        <script src="assets/js/uikit.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/validate.js"></script>
+        <script src="assets/js/main.js"></script>
+        
+        <script src=
+"https://code.jquery.com/jquery-3.6.0.min.js">
+	</script>
+	<script src=
+"https://momentjs.com/downloads/moment.min.js">
+	</script>
+	<script src="script2.js">
+        </script>
+    </body>
+</html>
+
